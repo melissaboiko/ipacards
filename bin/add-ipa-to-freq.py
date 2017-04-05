@@ -12,6 +12,7 @@ gendir = pkgdir + '/generated'
 FREQDATA= datadir + '/' + 'SUBTLEX-UK.txt'
 GENFILE = gendir + '/' + 'freq_ipa.tsv'
 WORDLIST = datadir + '/' + 'british-english-large'
+EXTRACT=1000
 
 def to_ipa(word):
     return(check_output(['espeak',
@@ -44,9 +45,27 @@ with(open(FREQDATA, 'rt')) as f:
 
 ipatable.sort(reverse=True)
 
+if os.path.isfile(GENFILE):
+    os.unlink(GENFILE) # needed when it's read-only
+
 with open(GENFILE, 'wt') as f:
+    order=0 # increasing int for easy Anki sorting
     for (freq, word, ipa) in ipatable:
+        order+=1
         f.write("\t".join([
-            str(freq), word, ipa
+            str(order),
+            word,
+            ipa,
+            str(freq)
         ]))
         f.write("\n")
+os.chmod(GENFILE, 0o444) # make it read-only
+
+with open(GENFILE, 'rt') as f_in:
+    with open(GENFILE + '.top' + str(EXTRACT), 'wt') as f_out:
+        i = 0
+        for line in f_in:
+            f_out.write(line)
+            i += 1
+            if i >= 1000:
+                break
