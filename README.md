@@ -1,6 +1,6 @@
 This deck shows you British English words in regular orthography, and then you have to guess the IPA (International Phonetic Alphabet) transcription of their Received Pronunciation.  The idea is that one can improve their pronunciation by drilling IPA.  Please notice that this proposal is unusual, experimental, untested, and possibly wrong.
 
-Alternatively, you can ignore or skim the IPA and use this deck just for the audio files; see if you guess how the words sound, then test whether you were right. This works better if you record yourself and compare the recording to the sample audio. Anki Deskop has a "Record Own Voice" (Shift+V) option at the "More" card menu.
+Alternatively, you can ignore or skim the IPA and use this deck just for the audio files; see if you guess how the words sound, then test whether you were right. This works better if you record yourself and compare the recording to the sample audio. Anki Deskop has a "Record Own Voice" (Shift+V) option at the "More" card menu.  With or without IPA drilling, I recommend careful attention to both listening and speaking practice.
 
 The deck includes 1000 words, ordered by frequency.  Hopefully this will be enough to give you a good grounding on English pronunciation, fix any common words you might be mispronouncing, and also get a good feel for the complex relationship between writing and sound in English.
 
@@ -23,7 +23,7 @@ Then browse the article on "English orthography". Make sure you understand the r
 
 Ensure your deck options are set for **Show new cards in order added**.  This will optimize your time, since the most frequent cards are listed first.
 
-Finally, start your flashcarding! Read the word in the question side and write the IPA transcription somewhere (the most convenient method may be a paper notepad by your computer, or Ankidroid's whiteboard function). See if the answer matches, and also listen to the audio carefully (press F5 to repeat). Make sure you got all consonants and vowels right; and, furthermore, take notice of: 
+Finally, start your flashcarding! Read the word in the question side and write the IPA transcription somewhere (the most convenient method may be a paper notepad by your computer, or Ankidroid's whiteboard function). See if the answer matches, and also listen to the audio carefully (press F5 to repeat). Make sure you got all consonants and vowels right; and, furthermore, take notice of:
 
 * Silent letters.
 * Short vs. long vowels.
