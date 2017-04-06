@@ -7,4 +7,5 @@ I use this to generate a flashcard deck in Anki format, intended to help with
 English pronunciation practice.  It's available at:
 https://ankiweb.net/shared/info/115334323 .
 
-See the file deck_description.md for information.
+See the file deck_description.md for information, and check out the generated/
+directory for data tables.
